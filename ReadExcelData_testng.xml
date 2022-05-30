@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <parameter name="URL" value="http://leaftaps.com/opentaps/" />
+  <test name="Test">
+  <parameter name="browserName" value="Chrome" />
+    <classes>
+      
+      <class name="week6.day2.assignment.CreateLead_ReadExcel"/>
+   	<class name="week6.day2.assignment.DeleteLead_ReadExcel"/>
+   	<class name="week6.day2.assignment.DuplicateLead_ReadExcel"/>
+   	<class name="week6.day2.assignment.EditLead_ReadExcel"/>
+   	<class name="week6.day2.assignment.MergeLead_ReadExcel"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
